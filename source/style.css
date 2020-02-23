@@ -1,0 +1,71 @@
+li {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.navbar-brand {
+    padding-top: 1%;
+}
+
+.header_area {
+    background-color: #cf3a3a;
+}
+
+header {
+    color: white;
+}
+
+#thongtindichvu {
+    font-size: 2.5rem;
+}
+
+body {
+    background-color: white;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.navbar-light {
+    color: white;
+}
+
+#mainbutton {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#mainbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#mainbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#mainbutton:hover span {
+    padding-right: 25px;
+}
+
+#mainbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
